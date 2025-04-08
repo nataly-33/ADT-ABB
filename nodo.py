@@ -21,7 +21,6 @@ class Nodo:
     def getHijoDerecho(self):
         return self._hijoDerecho_
 
-<<<<<<< HEAD
     def setHijoDerecho(self, hijoDerecho):
         self._hijoDerecho_ = hijoDerecho
 
@@ -91,31 +90,3 @@ class ABB:
             self.__recorridoPreOrdenRecursivo(nodoRaiz.getHijoDerecho())
 
 
-=======
-    def set_izq(self, nodo):
-        """
-        Establece el hijo izquierdo del nodo.
-        
-        Args:
-            nodo: El nodo que se asignará como hijo izquierdo.
-        """
-        self._izq = nodo
-
-    def set_der(self, nodo):
-        """
-        Establece el hijo derecho del nodo.
-        
-        Args:
-            nodo: El nodo que se asignará como hijo derecho.
-        """
-        self._der = nodo
-
-    def set_padre(self, nodo):
-        """
-        Establece el nodo padre.
-        
-        Args:
-            nodo: El nodo que se asignará como padre.
-        """
-        self._padre = nodo
->>>>>>> 0975f1c4625de647c444f42c4eedf5b41188b976
